@@ -1,0 +1,104 @@
+.card:hover {
+  transform: scale(0.8);
+  transition-duration: 0.5s;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-unstyled li {
+  margin-bottom: 0.5rem;
+}
+
+.text-dark {
+  color: #333;
+}
+
+.text-muted {
+  color: #999;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+.w-100 {
+  width: 100%;
+}
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.rounded-pill {
+  border-radius: 50rem;
+}
+
+.shadow-md {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-opacity-20 {
+  opacity: 0.2;
+}
+
